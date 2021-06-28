@@ -29,7 +29,7 @@ const Hero= () => {
                        GET Benefit <br/>For Joining US!
                    </Tittle>
                     <Desc>
-                        Join  hubuhnand get more informations bout
+                        Join and get more informations bout
                         benefits
                         have a chance to get more like <span>
                             VIP, Foods, Drinks</span>{''}
