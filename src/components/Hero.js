@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Image from '../assets/bg-img1.jpeg';
+import Image from '../assets/maplebgbyh.png';
 import { MdKeyboardArrowRight } from 'react-icons/md'
 
 const Section = styled.section`
@@ -17,8 +17,8 @@ const Content = styled.div`
 `;
 
 const Left = styled.div`
-padding-left: 10em;
-padding-top: 10em;
+padding-left: 220px;
+padding-top: 143px;
 `;
 
 const Tittle = styled.p`
@@ -48,7 +48,7 @@ const Button = styled.a`
     text-align: center;
     color: #fff;
     cursor: pointer;
-    background: linear-gradient(90deg, #0546d6, #3f89fc);
+    background: linear-gradient(90deg, #FF9E00, #FFC15C);
     text-decoration: none;
     box-shadow: 0 15px 14px rgb(0 42 177 / 12%);
 `;

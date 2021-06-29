@@ -22,8 +22,8 @@ const NavbarWrap = styled.div`
 `;
 
 const Logo = styled.div`
-width: 128px;
-height: 22px;
+width: 80px;
+height: 80px;
 background: url(${Img}) 0 45% no-repeat;
 background-size: 100% 100%;
 cursor: pointer;
@@ -63,13 +63,14 @@ border-radius: 19px;
 const Input = styled.input`
 color: #000;
 width: 196px;
-border: transparant;
+border: transparent;
 font-size: 12px;
-background: transparant;
+background: transparent;
 outline: none;
 
 &::placeholder {
-    color: #d1d8de;
+    text-align: left;
+    color: #FFB02F;
 }
 `;
 
@@ -86,7 +87,7 @@ cursor: pointer;
 height: 36px;
 font-size: 16px;
 box-sizing: border-box;
-background: #007cff;
+background: #FFB02F ;
 text-align: center;
 line-height: 36px;
 border-radius: 21px;
@@ -107,16 +108,13 @@ const Navbar = () => {
             </Nav>
             <Search>
                 <SearchWrap>
-                    <Input type='text' placeholder='Symbol/Name' /
-                    >
+                    <Input type='text' placeholder='Symbol/Name' />
                 </SearchWrap>
             </Search>
             <ButtonContainer>
                 <Button css={`
-                    color: #037cff;
-                    backgroung: #fff;
-                    `}
-                    >
+                    color: #FFB02F ;
+                    background: #fff;`}>
                         SIGN UP
                         </Button>
                 <Button>LOG IN</Button>
